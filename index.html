@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>个人网页</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="id.html" target="_blank">关于我</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="home" id="home">
+            <h2>欢迎来到我的个人网页！</h2>
+            <p>在这里你可以了解我的一些信息和作品。</p>
+            <p><a href="#">查看更多</a></p>
+    </section>
+    
+    <section class="about" >
+        <div class="container">
+            <h2>关于我</h2>
+            <p></p>
+        </div>
+    </section>
+    
+    <section class="portfolio" id="portfolio">
+    <h1>文章查询</h1>
+    <h2>作品集</h2>
+    <input type="text" id="keywordBox" placeholder="输入关键词">
+    <input type="date" id="dateBox">
+    <button onclick="searchArticles()">搜索</button>
+    <div id="results">
+        <div class="article" data-title="CSS-CSS基础知识" data-date="2023-10-11">
+            <a href="https://blog.csdn.net/weixin_45525272/article/details/106974332" target="_blank">CSS-CSS基础知识</a> - 2023-10-11
+        </div>
+        <div class="article" data-title="假设检验统计量的选择" data-date="2024-05-11">
+            <a href="https://blog.csdn.net/killsime/article/details/138713461?spm=1001.2014.3001.5502" target="_blank">假设检验统计量的选择</a> - 2024-05-11
+        </div>
+        <div class="article" data-title="http基本格式" data-date="2024-01-01">
+            <a href="https://blog.csdn.net/killsime/article/details/135323710?spm=1001.2014.3001.5502" target="_blank">http基本格式</a> - 2024-01-01
+        </div>
+    </div>
+    </section>
+
+
+    
+    <section id="contact">
+        <div class="container">
+            <h2>联系我</h2>
+            <p>你可以通过以下方式联系我：</p>
+            <ul>
+                <li>Email: 11111@qq.com</li>
+                <li>电话: 123-456-7890</li>
+                <p><a href="https://www.cqupt.edu.cn"  target="_blank">友情链接</a></p>
+            </ul>
+        </div>
+    </section>
+    <section class="liuyan">
+        <h2>留言区</h2>
+        <div id="messages">
+          <!-- 留言列表将会在这里显示 -->
+        </div>
+        <form id="messageForm">
+          <textarea id="messageInput" placeholder="在这里输入你的留言"></textarea>
+          <button type="submit">发布留言</button>
+        </form>
+      </div>
+    </section>
+</main>
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 个人网页 | 设计者：袁祺盛</p>
+    </div>
+</footer>
+
+<div id="adContainer" class="ad-container">
+    <span class="close-btn" onclick="closeAd()">X</span>
+    <a href="https://ak.hypergryph.com/#index" target="_blank"><img src="images/明日方舟.jpg" alt="广告图片"></a>
+ </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

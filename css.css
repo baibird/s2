@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images/572ad70729362_1024.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 210px;
+    text-indent: -9999px;
+}
+header ul{
+    position: absolute;
+    right: 40vw;
+    top:0;
+    line-height: 80px;
+    font-size: 50px;
+}
+.jianjie{
+    display: flex;
+}
+.jianjie img{
+    width: 50%;
+}
+.weizhi{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aihao{
+    line-height: 50px;
+    text-indent: 20px;
+}
+footer{
+    background-color: #000000;
+    color: #B7B7B7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

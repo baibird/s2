@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images/572ad70729362_1024.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 210px;
+    text-indent: -9999px;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height: 80px;
+}
+header a{
+    color:rgb(71, 62, 62);
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display:inline;
+    margin-right: 4vw;
+}
+.home{
+    background-color: antiquewhite;
+    color: white;
+    height: 85vh;
+    background-image: url("images/迷失之牙.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home h2{
+    font-size: 60px;
+}
+.home p{
+    color: #fef7e6;
+    font-size: 18xp;
+    margin:25px 0;
+
+}
+.home a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ACACAC;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.about{
+    background-color: #485652;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.container{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+
+}
+.container a{
+    text-decoration: none;
+    color: #000;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.liuyan h2{
+    text-align: center;
+}
+.portfolio{
+    text-align: center;
+    line-height: 50px;
+}
+.portfolio h1{
+    text-align: center;
+    vertical-align: middle;
+}
+.portfolio a{
+    text-decoration: none;
+    color: #000;
+}
+
+.portfolio a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #000000;
+    color: #B7B7B7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+#messageBoard {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  #messages {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  #messageInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+
+  .ad-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
